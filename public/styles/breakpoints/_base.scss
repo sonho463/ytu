@@ -3,8 +3,8 @@ body{
 }
 
 section {
-	// max-width: 90%;
-	// margin: 0 auto;
+	max-width: 90%;
+	margin: 0 auto;
 	margin-bottom: 100px;
 	padding-top: 50px;
 }
@@ -83,8 +83,8 @@ li {
 
 .heading{
 	// position: relative;
-	width: 90%;
-	margin: 50px auto;
+	// width: 90%;
+	// margin: 50px auto;
 
 
 	img{
@@ -286,6 +286,9 @@ li {
 // Rough-Act
 // -------------
 
+.rough-act__bg {
+	background-color: $--main-bg-cSkyblue;
+}
 
 .rough-act {
 	background-color: $--main-bg-cSkyblue;
@@ -406,6 +409,22 @@ li {
 }
 
 
+// -------------
+// 専門部という活動があります
+// -------------
+
+.specialty__box {
+	width: 300px;
+	img {
+		width: 100%;
+	}
+}
+
+
+
+// -------------
+// 具体的にはこんなことをしています
+// -------------
 
 
 // -------------

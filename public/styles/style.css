@@ -4,6 +4,8 @@ body {
 }
 
 section {
+  max-width: 90%;
+  margin: 0 auto;
   margin-bottom: 100px;
   padding-top: 50px;
 }
@@ -75,11 +77,6 @@ li {
 .yellow-line {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, yellow));
   background: linear-gradient(transparent 60%, yellow 0%);
-}
-
-.heading {
-  width: 90%;
-  margin: 50px auto;
 }
 
 .heading img {
@@ -253,6 +250,10 @@ li {
   margin-left: 25%;
 }
 
+.rough-act__bg {
+  background-color: #D2F1FA;
+}
+
 .rough-act {
   background-color: #D2F1FA;
   margin-bottom: 200px;
@@ -364,6 +365,14 @@ li {
 
 #myChart {
   max-width: 400px;
+}
+
+.specialty__box {
+  width: 300px;
+}
+
+.specialty__box img {
+  width: 100%;
 }
 
 .grad-btn {
